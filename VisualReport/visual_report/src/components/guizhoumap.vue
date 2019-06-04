@@ -20,7 +20,11 @@ export default {
       mapEchartsInit(){
         echarts.registerMap('gz', gz);
         var myChart=echarts.init(this.$refs.map);
-        myChart.setOption(option, true);
+        // var ini_data = [];
+        // var str2 ={name:'贵阳市',value: 1};//拼接对象数组
+        // ini_data.push(str2);
+        // option.series[0].data=ini_data;
+        myChart.setOption(option);
       }
   }
 }
