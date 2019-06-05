@@ -1,7 +1,7 @@
 <template>
     <div id="clock" class="clock">
-        <p>{{date}}</p> 
-        <p>{{time}}</p> 
+        <p class="datep">{{date}}</p> 
+        <p class="time">{{time}}</p> 
     </div>
 </template>
 <script>
@@ -41,9 +41,18 @@ export default {
         top: 0px;
         left: 50%;
         margin-left: -53px;
+        font-family: 'Share Tech Mono', monospace;
+        text-shadow: 0 0 20px #0aafe6;
+        color: #daf6ff;
     }
-    .clock p {
-        margin-top: 5px;
-        color: #fff;
+    .datep {
+        margin-top: 5%;
+    }
+    .time {
+        position: absolute;
+        font-size: 30px;
+        top: 0px;
+        left: 50%;
+        margin-left: -65.5px;
     }
 </style>
