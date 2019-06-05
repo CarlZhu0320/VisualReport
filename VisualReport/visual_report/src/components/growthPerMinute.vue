@@ -1,5 +1,5 @@
 <template>
-    <div id="growthPerMinute" style="height:100%;width:100%;" ></div>
+    <div id="growthPerMinuteDiv" style="height:100%;width:100%;position: absolute;top:0" ></div>
 </template>
 <script>
 import echarts from "echarts";
@@ -17,7 +17,7 @@ export default {
   methods:{
       growthPerMinuteEchartsInit(){
         // 基于准备好的dom，初始化echarts图表
-        var myChart = echarts.init(document.getElementById('growthPerMinute')); 
+        var myChart = echarts.init(document.getElementById('growthPerMinuteDiv')); 
         
         var option = {
                 title : {
@@ -66,9 +66,9 @@ export default {
                     }
                 ],
                 grid: {
-                        height: '62%',
-                        width: '65%',
+                        width: '80%',
                         top: "25%",
+                        bottom: '20%',
                         left: "15%"
                     },
                 series : [

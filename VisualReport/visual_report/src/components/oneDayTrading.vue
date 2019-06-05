@@ -1,5 +1,5 @@
 <template>
-    <div id="oneDayTrading" style="height:100%;width:100%;" ></div>
+    <div id="oneDayTradingDiv" style="height:100%;width:100%;position: absolute;top:0" ></div>
 </template>
 <script>
 import echarts from "echarts";
@@ -17,7 +17,7 @@ export default {
   methods:{
       oneDayTradingEchartsInit(){
         // 基于准备好的dom，初始化echarts图表
-        var myChart = echarts.init(document.getElementById('oneDayTrading')); 
+        var myChart = echarts.init(document.getElementById('oneDayTradingDiv')); 
         
         var option = {
                 title : {
@@ -66,7 +66,7 @@ export default {
                     }
                 ],
                 grid: {
-                        width: '75%',
+                        width: '80%',
                         top: "25%",
                         bottom: '20%',
                         left: "15%"

@@ -1,5 +1,5 @@
 <template>
-    <div id="column" style="height:100%;width:100%;" ></div>
+    <div id="column" style="height:100%;width:100%;position: absolute;top:5%" ></div>
 </template>
 <script>
 import echarts from "echarts";
@@ -76,9 +76,9 @@ export default {
                 }
             ],
             grid: {
-                        height: '62%',
-                        width: '65%',
+                        width: '70%',
                         top: "25%",
+                        bottom: '20%',
                         left: "15%"
                     },
             series : [

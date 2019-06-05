@@ -37,6 +37,10 @@ export default {
 <style>
     .clock {
         text-align: center;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin-left: -53px;
     }
     .clock p {
         margin-top: 5px;

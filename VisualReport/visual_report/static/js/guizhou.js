@@ -6,8 +6,20 @@ export default {
             zoom: 1.26,
             roam: false,
             itemStyle:{
-                normal:{label:{show:true}},
-                emphasis:{label:{show:false}}
+                normal:{
+                    borderColor: '#FFF', //区域边框颜色
+                    label:{show:true}
+                },
+                emphasis:{
+                    label:{show:true}
+                }
+            },
+            label: {
+                normal: {  
+                    textStyle: {
+                        color: '#fff'
+                    }
+                }
             },
             data: [
                 {name:'贵阳市',value: 2},
@@ -27,7 +39,7 @@ export default {
         x: 'left',
         y: 'bottom',
         splitList: [
-            { start: 1, end: 1, color: '#cfc5de' },
+            { start: 1, end: 1, color: '#273F4A' },
             { start: 2, end: 2, color: '#FFFF00' }
         ]
     }
