@@ -55,6 +55,7 @@ import historicalTransactions from './components/historicalTransactions'
 import growthPerMinute from './components/growthPerMinute'
 import oneDayTrading from './components/oneDayTrading'
 import date from './components/date'
+import axios from 'axios';
 
 export default {
   name: 'App',
@@ -62,6 +63,21 @@ export default {
     return {
       bankName: '贵州银行'
     };
+  },
+  methods: {
+    request() {
+      axios({
+        url: 'http://www.baidu.com',
+        method: 'post',
+        data: ''
+      }).then((data) => {
+        console.log(data);
+      });
+    }
+  },
+  mounted() {
+    console.log(123);
+    this.request();
   },
   components: {
     guizhoumap,
