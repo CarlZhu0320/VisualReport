@@ -43,14 +43,14 @@ export default {
         margin-left: -53px;
         font-family: 'Share Tech Mono', monospace;
         text-shadow: 0 0 20px #0aafe6;
-        color: #daf6ff;
+        color: #52FFFF;
     }
     .datep {
-        margin-top: 5%;
+        margin-top: 3%;
     }
     .time {
         position: absolute;
-        font-size: 30px;
+        font-size: 28px;
         top: 0px;
         left: 50%;
         margin-left: -65.5px;

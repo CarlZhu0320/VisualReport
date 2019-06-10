@@ -22,6 +22,8 @@ export default {
         var option = {
                 title : {
                     text: '单日交易量',
+                    x: '5%',
+                    y: '3%',
                     textStyle: {   //标题颜色
                         color: '#FFF',
                         fontSize: 12

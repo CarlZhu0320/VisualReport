@@ -22,6 +22,7 @@ export default {
         var option = {
             title : {
                 text: '历史交易记录',//小标题
+                x: '5%',
                 textStyle: {   //标题颜色
                     color: '#FFF',
                     fontSize: 12

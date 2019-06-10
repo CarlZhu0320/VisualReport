@@ -3,48 +3,51 @@
     <div id="title" class="title">
       <div id="bankName" class="bankName">
         <span>{{bankName}}</span>
-        <img src="../static/img/border.png" width="100%" height="100%">
+        <img src="../static/img/1.png" width="100%" height="100%">
       </div>
       <div id="date" class="date">
-        <img src="../static/img/border.png" width="100%" height="100%">
+        <img src="../static/img/2.png" width="100%" height="100%">
         <date></date>
       </div>
       <div id="operation" class="operation">
-        <img src="../static/img/border.png" width="100%" height="100%">
+        <img src="../static/img/3.png" width="100%" height="100%">
         <div class="pandect">
           <span>总览</span>
+          <img src="../static/img/5.png" width="100%" height="100%">
         </div>
         <div class="rotate">
           <span>轮循</span>
+          <img src="../static/img/4.png" width="100%" height="100%">
         </div>
       </div>
     </div>
     <div id="historicalTransactions" class="historicalTransactions">
-      <img src="../static/img/border.png" width="100%" height="100%">
+      <img src="../static/img/7.png" width="100%" height="100%">
       <historicalTransactions></historicalTransactions>
     </div>
     <div id="oneDayTrading" class="oneDayTrading">
-      <img src="../static/img/border.png" width="100%" height="100%">
+      <img src="../static/img/7.png" width="100%" height="100%">
       <oneDayTrading></oneDayTrading>
     </div>
     <div id="growthPerMinute" class="growthPerMinute">
       <growthPerMinute></growthPerMinute>
-      <img src="../static/img/border.png" width="100%" height="100%">
+      <img src="../static/img/7.png" width="100%" height="100%">
     </div>
     <div id="guizhoumapDiv" class="guizhoumapDiv">
       <guizhoumap/>
+      <img src="../static/img/9.png" width="100%" height="100%">
     </div>
     <div id="growthPerMinuteTotal" class="growthPerMinuteTotal">
-      <img src="../static/img/border.png" width="100%" height="100%">
+      <img src="../static/img/12.png" width="100%" height="100%">
     </div>
     <div id="test1" class="test1">
-      <img src="../static/img/border.png" width="100%" height="100%">
+      <img src="../static/img/7.png" width="100%" height="100%">
     </div>
     <div id="test2" class="test2">
-      <img src="../static/img/border.png" width="100%" height="100%">
+      <img src="../static/img/7.png" width="100%" height="100%">
     </div>
     <div id="test3" class="test3">
-      <img src="../static/img/border.png" width="100%" height="100%">
+      <img src="../static/img/7.png" width="100%" height="100%">
     </div>
   </div>
 </template>
@@ -91,9 +94,7 @@ export default {
 
 <style>
   body {
-    background: #002F44;
-  }
-  .app {
+    background: url("../static/img/bg.png");
     width: 100%;
     height: 100%;
   }
@@ -114,7 +115,7 @@ export default {
     position: absolute;
     top: 30%;
     left: 9%;
-    color: #FFF;
+    color: #52FFFF;
     font-size: 18px;
   }
   .date {
@@ -135,7 +136,7 @@ export default {
     margin-top: -8.5px;
     left: 50%;
     margin-left: -14px;
-    color: #FFF;
+    color: #C5E9F5;
     font-size: 14px;
   }
   .rotate span {
@@ -151,7 +152,6 @@ export default {
     position: absolute;
     width: 8%;
     height: 50%;
-    background: rgb(0, 186, 255);
     color: #FFF;
     top: 25%;
     margin-left: 4.5%;
@@ -160,7 +160,6 @@ export default {
     position: absolute;
     width: 8%;
     height: 50%;
-    background: rgb(0, 0, 0);
     float: left;
     color: #FFF;
     top: 25%;
@@ -190,6 +189,7 @@ export default {
   .guizhoumapDiv {
     width: 50%;
     height: 60%;
+    background: url("../static/img/地图背景.png");
     position: absolute;
     left: 25%;
     top: 10%;

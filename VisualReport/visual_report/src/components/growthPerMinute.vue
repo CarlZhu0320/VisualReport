@@ -22,6 +22,8 @@ export default {
         var option = {
                 title : {
                     text: '交易率每分钟增长情况',//小标题
+                    x: '5%',
+                    y: '3%',
                     textStyle: {   //标题颜色
                         color: '#FFF',
                         fontSize: 12

@@ -1,5 +1,5 @@
 <template>
-    <div ref="map" style="height:100%;width:100%;" ></div>
+    <div ref="map" style="height:100%;width:100%;position: absolute;top:0;" ></div>
 </template>
 <script>
 import echarts from "echarts";

@@ -3,7 +3,7 @@ export default {
         {
             type: 'map',
             mapType: 'gz',
-            zoom: 1.26,
+            zoom: 1.2,
             roam: false,
             itemStyle:{
                 normal:{
